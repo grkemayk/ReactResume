@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  background-color: #3542ff;
+}
+.componentBody
+{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.containerBody
+{
+  margin: 2vh;
+  height: 90%;
+  width: 95%;
+  background-color: rgb(214, 212, 212, 0.2);
+  border-radius: 25px;
+  border: solid 2px rgb(4, 0, 59);
+}
+
+
+
+
+
+
