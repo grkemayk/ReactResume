@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
         <div className="row">
-          <div class="col-3 navbar"><NavBar/></div>
+          <div class="col-3 componentNavbar"><NavBar/></div>
           <div class="col-9 componentBody">
             <div className="containerBody">
 

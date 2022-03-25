@@ -3,27 +3,36 @@
     background-color: #00065b;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    border-width: 1px;
+    border: solid 1px rgb(255, 179, 2);
     height: 100vh;
-    display:flex;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.resumeNav > ul{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
 }
 .navElement
 {
-    color: antiquewhite;
-    margin-top: 2vh;
+    color: rgb(255, 179, 2);
     font-size: 3vh;
     list-style-type:none;
     text-decoration: none;
 }
 a 
 {
-    color: antiquewhite;
+    color: rgb(250, 221, 154);
     text-decoration: none;
 }
 
 
 a:hover
 {
-    color: #9ae8e9; 
+    color: rgb(172, 120, 0);
 }

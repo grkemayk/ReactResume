@@ -1,11 +1,13 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from "./styles.module.css"
 import { Routes, Route, NavLink } from "react-router-dom";
+import styles from "./styles.module.css"
+import ProfileImage from './ProfileImage';
 
 const NavBar=()=>{
   return (
-    <nav className={styles.resumeNav+" container"}>
+    <nav className={styles.resumeNav}>
+     <ProfileImage></ProfileImage>
       <ul>
         <li className={styles.navElement}><NavLink to="/about">About</NavLink></li>
         <li className={styles.navElement}><NavLink to="/education">Education</NavLink></li>
