@@ -10,9 +10,7 @@
   text-align: center;
 }
 
-.container:hover {
-  transform: scale(0.54);
-}
+
 .containerInner {
   clip-path: path(
     "M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z"
@@ -27,11 +25,9 @@
   cursor: pointer;
   height: 380px;
   left: 10px;
-  pointer-events: none;
   position: absolute;
   top: 210px;
-  width: 380px;
-  border: solid 3px rgb(255, 179, 2);;
+  border: solid 3px rgb(255, 179, 2);
 }
 .img {
   pointer-events: none;
@@ -50,15 +46,15 @@
 }
 .name {
   color: #898e95;
-  font-size: 25px;
+  font-size: 4vh;
   font-weight: 600;
- 
+  font-family: 'Times New Roman', serif;
   text-align: center;
 }
 .title {
   color: #6e6e6e;
   font-family: arial;
-  font-size: 14px;
+  font-size: 2vh;
   font-style: italic;
   margin-top: 4px;
 }

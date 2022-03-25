@@ -20,7 +20,7 @@ const ProfileImage = () => {
         </div>
         <div className={style.divider}></div>
         <div className={style.name}>Görkem AYKAÇ</div>
-        <div className={style.title}>Software Engineer</div>
+        <div className={style.title}>  Software Engineer</div>
         </div>
  
   )
