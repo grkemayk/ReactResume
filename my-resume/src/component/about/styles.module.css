@@ -1,12 +1,17 @@
+.about
+{
+    margin: 4vmin;
+}
 .aboutTitle
 {
     color: white;
-    font-size: 6vh;
+    font-size: 6vmin;
+    text-shadow: 2px 2px #ff6767 ;
 }
 .aboutDescription
 {
     color: white;
-    font-size: 4vh;
+    font-size: 4vmin;
     font-family: 'Times New Roman', serif;
-    margin: 2vw;
+    margin: 2vmin;
 }

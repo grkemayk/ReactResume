@@ -1,23 +1,30 @@
 .careerCompany
 {
+    font-size: 4vmin;
     color:white;
     font-weight: bold;
+    text-shadow: 2px 2px #ff6767 ;
 }
 .careerTitle
 {
+    font-size: 3vmin;
     color:white;
     font-family: 'Times New Roman', serif;
+    font-weight: bold;
     
 }
 
 .careerTerm
 {
+    font-size: 2vmin;
     color:white;
     font-family: 'Times New Roman', serif;
+    font-weight: bold;
 }
 
 .careerDefination
 {
+    font-size: 2vmin;
     color:white;
     font-family: 'Times New Roman', serif;
 }

@@ -5,11 +5,11 @@ const EducationElement = (props) => {
 
   return (
     <div>
-        <h3 className={style.educationCompany}>{props.educationCompany}</h3>
-        <h4 className={style.educationDegree}>{props.educationDegree}</h4>
-        <h5 className={style.educationDepartment}>{props.educationDepartment}</h5>
-        <h6 className={style.educationTerm}>{props.educationTerm}</h6>
-        <h5 className={style.educationGPA}>{props.educationGPA}</h5>
+        <p className={style.educationCompany}>{props.educationCompany}</p>
+        <u className={style.educationDegree}>{props.educationDegree}</u>
+        <p className={style.educationDepartment}>{props.educationDepartment}</p>
+        <p className={style.educationGPA}>{props.educationGPA}</p>
+        <p className={style.educationTerm}>{props.educationTerm}</p>
         <br></br>
     </div>
   )

@@ -4,8 +4,8 @@ import style from "./styles.module.css"
 
 const Career = () => {
   return (
-    <div className={style.careerList}>
-        <ul>
+    <div>
+        <ul className={style.careerList}>
             <li className={style.career}>
                 <CareerElement 
                 careerCompany="WiserTech" 
@@ -32,7 +32,7 @@ const Career = () => {
                 careerCompany="Bosch" 
                 careerTitle="Internship"
                 careerTerm="02.2020 - 06.2020"
-                careerDefination="We dealing component life cycle."
+                careerDefination="We dealed component life cycle."
              />
             </li>
            

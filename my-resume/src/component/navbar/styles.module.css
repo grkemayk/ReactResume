@@ -21,7 +21,7 @@
 .navElement
 {
     color: rgb(255, 179, 2);
-    font-size: 4vh;
+    font-size: 2em;
     list-style-type:none;
     text-decoration: none;
     font-family: 'Candara', monospace;

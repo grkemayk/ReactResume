@@ -1,19 +1,20 @@
-.careerList
+.projectList
 {
+    max-height: 70vh;
     display: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     margin: 5vmin;
 }
-.career
+.project
 {
     text-decoration: none;
     list-style-type: none;
-    margin-top: 2vh;
+    margin-top: 1vh;
     border-bottom: solid 1px rgb(197, 197, 197);
 }
-.career:last-child
+.project:last-child
 {
     border: none;
 }

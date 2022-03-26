@@ -4,8 +4,8 @@ import style from "./styles.module.css"
 
 const Education = () => {
   return (
-    <div className={style.educationList}>
-        <ul>
+    <div>
+        <ul className={style.educationList}>
             <li className={style.education}>
                     <EducationElement 
                     educationCompany="Ege University" 
