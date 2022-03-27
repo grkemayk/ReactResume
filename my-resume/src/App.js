@@ -18,12 +18,12 @@ function App() {
           <div class="col-9 componentBody">
             <div className="containerBody">
             <Routes>           
-              <Route path="/about" element={<About/>}/>
-              <Route path="/education" element={<Education/>} />
-              <Route path="/career" element={<Career/>} />
-              <Route path="/projects" element={<Projects/>} />
-              <Route path="/goals" element={<Goals/>} />
-              <Route path="/*" element={<Navigate replace to="/about" />} />
+              <Route path="ReactResume/about" element={<About/>}/>
+              <Route path="ReactResume/education" element={<Education/>} />
+              <Route path="ReactResume/career" element={<Career/>} />
+              <Route path="ReactResume/projects" element={<Projects/>} />
+              <Route path="ReactResume/goals" element={<Goals/>} />
+              <Route path="/*" element={<Navigate replace to="ReactResume/about" />} />
             </Routes>
             </div>
           </div>

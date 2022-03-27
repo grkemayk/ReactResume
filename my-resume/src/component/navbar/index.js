@@ -11,11 +11,11 @@ const NavBar=()=>{
       <div className={style.navAll}>
         <ProfileImage></ProfileImage>
           <ul>
-            <li className={style.navElement}><NavLink to="/about">About</NavLink></li>
-            <li className={style.navElement}><NavLink to="/education">Education</NavLink></li>
-            <li className={style.navElement}><NavLink to="/career">Career</NavLink></li>
-            <li className={style.navElement}><NavLink to="/projects">Projects</NavLink></li>
-            <li className={style.navElement}><NavLink to="/goals">Goals</NavLink></li>
+            <li className={style.navElement}><NavLink to="/ReactResume/about">About</NavLink></li>
+            <li className={style.navElement}><NavLink to="/ReactResume/education">Education</NavLink></li>
+            <li className={style.navElement}><NavLink to="/ReactResume/career">Career</NavLink></li>
+            <li className={style.navElement}><NavLink to="/ReactResume/projects">Projects</NavLink></li>
+            <li className={style.navElement}><NavLink to="/ReactResume/goals">Goals</NavLink></li>
           </ul>  
         </div>
     </nav>
