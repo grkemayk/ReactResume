@@ -3,21 +3,24 @@ import ProjectsElement from './projectsElement';
 import style from "./styles.module.css"
 
 const Projects = () => {
+
   return (
-    <div>
+    <div className={style.project}>
         <ul className={style.projectList}>
-            <li className={style.project}><ProjectsElement 
+            <li className={style.projectElement}><ProjectsElement 
             projectName="Real Time Object Detection"
             projectCompany="Celal Bayar University"
             projectTerm="2020"
             projectDescription="This is my thesis topic. We made this project three classmates.
             We developed real-time object detection with Python therewithal we used OpenCV and Tensorflow libraries to train our own objects.
             These objects are industrial nuts, bolts and allen wrench. Objects have similar lines but we achieved an accuracy rate of over 90%"
+            projectKeywords="Python"
             />
+            
             </li>
 
             
-            <li className={style.project}><ProjectsElement 
+            <li className={style.projectElement}><ProjectsElement 
             projectName="Payment System"
             projectCompany="Mepsan"
             projectTerm="09.2020 - 06.2021"
@@ -28,7 +31,7 @@ const Projects = () => {
             />
             </li>
 
-            <li className={style.project}><ProjectsElement 
+            <li className={style.projectElement}><ProjectsElement 
             projectName="Ozone Machine"
             projectCompany="WiserTech"
             projectTerm="06.2021 - Currently"
@@ -38,7 +41,7 @@ const Projects = () => {
             projectKeywords="Java, JavaFX, JavaScript, React.js, Python"
             />
             </li>
-            <li className={style.project}><ProjectsElement 
+            <li className={style.projectElement}><ProjectsElement 
             projectName="Washing Machine"
             projectCompany="WiserTech"
             projectTerm="06.2021 - Currently"

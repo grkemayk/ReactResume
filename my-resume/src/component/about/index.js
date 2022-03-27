@@ -4,7 +4,7 @@ import style from "./styles.module.css"
 const About = () => {
   return (
     <div className={style.about}>
-        <h1 className={style.aboutTitle}>About Me</h1>
+        <h1 className={style.aboutTitle}>About</h1>
         <p className={style.aboutDescription}>
             Hi everyone. Im Görkem Aykaç. I was born 1997 in Izmir and now Im living in Izmir. I graduated from Manisa Celal Bayar University.
             My main department is Electrical Electronics Engineering also I studied Computer Engineering(Double Major Program).

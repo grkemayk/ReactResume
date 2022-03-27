@@ -3,20 +3,21 @@ import CareerElement from './careerElement'
 import style from "./styles.module.css"
 
 const Career = () => {
+
   return (
-    <div>
+    <div className={style.career}>
         <ul className={style.careerList}>
-            <li className={style.career}>
+            <li className={style.careerElement}>
                 <CareerElement 
                 careerCompany="WiserTech" 
                 careerTitle="Software Engineer"
                 careerTerm="06.2021 - Currently"
                 careerDefination="We developing industrial textile machine's software. 
-                These machines have AI. In this way we can control and tracking machines from our cloud platform also we entegrated OEE Systems to our machine. 
+                These machines have AI. In this way we can control and tracking machines with our cloud platform also we entegrated OEE Systems to our machine. 
                 This system developed by us."
              />
             </li>
-            <li className={style.career}>
+            <li className={style.careerElement}>
                 <CareerElement 
                 careerCompany="Mepsan" 
                 careerTitle="Software Engineer"
@@ -27,7 +28,7 @@ const Career = () => {
 
              />
             </li>
-            <li className={style.career}>
+            <li className={style.careerElement}>
                 <CareerElement 
                 careerCompany="Bosch" 
                 careerTitle="Internship"

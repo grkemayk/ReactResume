@@ -2,11 +2,13 @@ import React from 'react'
 import EducationElement from './educationElement';
 import style from "./styles.module.css"
 
+
 const Education = () => {
+
   return (
-    <div>
+    <div className={style.education}>
         <ul className={style.educationList}>
-            <li className={style.education}>
+            <li className={style.educationElement}>
                     <EducationElement 
                     educationCompany="Ege University" 
                     educationDegree="Master Degree"
@@ -14,7 +16,7 @@ const Education = () => {
                     educationTerm = "2020 - 2022"
                     />
                 </li>
-            <li className={style.education}>
+            <li className={style.educationElement}>
                 <EducationElement 
                 educationCompany="Celal Bayar University" 
                 educationDegree="Bachelor's Degree"
@@ -23,7 +25,7 @@ const Education = () => {
                 educationGPA = "3.17 / 4.00"
                 />
             </li>
-            <li className={style.education}>
+            <li className={style.educationElement}>
                 <EducationElement 
                 educationCompany="Celal Bayar University" 
                 educationDegree="Bachelor's Degree"

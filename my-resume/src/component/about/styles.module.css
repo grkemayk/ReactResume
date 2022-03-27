@@ -1,12 +1,13 @@
 .about
 {
-    margin: 4vmin;
+    max-height: 90%;
+    max-width: 90%;
 }
 .aboutTitle
 {
     color: white;
     font-size: 6vmin;
-    text-shadow: 2px 2px #ff6767 ;
+    text-shadow: 3px 3px #ff6767 ;
 }
 .aboutDescription
 {

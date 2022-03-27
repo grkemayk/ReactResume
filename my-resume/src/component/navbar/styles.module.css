@@ -21,11 +21,22 @@
 .navElement
 {
     color: rgb(255, 179, 2);
-    font-size: 2em;
+    font-size: 4vmin;
     list-style-type:none;
     text-decoration: none;
     font-family: 'Candara', monospace;
     font-weight: bold;
+}
+.navElementActive
+{
+    list-style-type:none;
+    text-decoration: none;
+    font-family: 'Candara', monospace;
+    font-weight: bold;
+
+    text-shadow: 4px 4px #1b02ff ;
+    color: rgb(255, 247, 228);
+    font-size: 3.7em
 }
 a 
 {
@@ -37,4 +48,9 @@ a
 a:hover
 {
     color: rgb(172, 120, 0);
+}
+
+.active
+{
+    background-color: green;
 }

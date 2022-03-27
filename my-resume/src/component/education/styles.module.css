@@ -1,3 +1,8 @@
+.education
+{
+    max-height: 90%;
+    max-width: 90%;
+}
 .educationList
 {
     display: column;
@@ -5,14 +10,14 @@
     text-align: center;
     align-items: center;
 }
-.education
+.educationElement
 {
     text-decoration: none;
     list-style-type: none;
-    margin-top: 1vh;
+    margin-top: 2vh;
     border-bottom: solid 1px rgb(197, 197, 197);
 }
-.education:last-child
+.educationElement:last-child
 {
     border: none;
 }

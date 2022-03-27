@@ -1,0 +1,18 @@
+
+.goal
+{
+    margin: 15vmin;
+}
+.goalDescription
+{
+    font-size: 4vmin;
+    color:white;
+    font-family: 'Times New Roman', serif;
+}
+.goalTitle
+{
+    font-size: 6vmin;
+    color:white;
+    font-weight: bold;
+    text-shadow: 3px 3px #ff6767 ;
+}

@@ -6,7 +6,7 @@ const EducationElement = (props) => {
   return (
     <div>
         <p className={style.educationCompany}>{props.educationCompany}</p>
-        <u className={style.educationDegree}>{props.educationDegree}</u>
+        <p className={style.educationDegree}>{props.educationDegree}</p>
         <p className={style.educationDepartment}>{props.educationDepartment}</p>
         <p className={style.educationGPA}>{props.educationGPA}</p>
         <p className={style.educationTerm}>{props.educationTerm}</p>
