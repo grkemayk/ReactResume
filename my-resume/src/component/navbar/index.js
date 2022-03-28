@@ -10,7 +10,7 @@ const NavBar=()=>{
     <nav className={style.resumeNav}>
       <div className={style.navAll}>
         <ProfileImage></ProfileImage>
-          <ul>
+          <ul className={style.navList}>
             <li className={style.navElement}><NavLink to="/ReactResume/about">About</NavLink></li>
             <li className={style.navElement}><NavLink to="/ReactResume/education">Education</NavLink></li>
             <li className={style.navElement}><NavLink to="/ReactResume/career">Career</NavLink></li>

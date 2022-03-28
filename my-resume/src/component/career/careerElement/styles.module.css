@@ -11,7 +11,7 @@
     color:white;
     font-family: 'Times New Roman', serif;
     font-weight: bold;
-    box-shadow: rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #18006d;
 }
 
 .careerTerm

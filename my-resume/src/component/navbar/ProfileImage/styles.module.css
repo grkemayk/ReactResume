@@ -46,15 +46,15 @@
 }
 .name {
   color: #898e95;
-  font-size: 4vmin;
-  font-weight: 600;
+  font-size: 2vw;
+  font-weight: bold;
   font-family: 'Times New Roman', serif;
   text-align: center;
 }
 .title {
   color: #6e6e6e;
   font-family: arial;
-  font-size: 2vh;
+  font-size: 2vw;
   font-style: italic;
-  margin-top: 4px;
+  text-align: center;
 }

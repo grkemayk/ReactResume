@@ -18,14 +18,20 @@
     flex-direction: column;
     
 }
+.navList
+{
+    max-width: 90%;
+    max-height: 90%;
+}
 .navElement
 {
     color: rgb(255, 179, 2);
-    font-size: 4vmin;
+    font-size: 2vw;
     list-style-type:none;
     text-decoration: none;
     font-family: 'Candara', monospace;
     font-weight: bold;
+    margin-top: 1vh;
 }
 .navElementActive
 {
