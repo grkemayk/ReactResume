@@ -7,7 +7,7 @@ import Education from './component/education';
 import Career from './component/career';
 import Projects from './component/projects';
 import Goals from './component/goals';
-
+import Skills from './component/skills';
 
 function App() {
 
@@ -23,6 +23,7 @@ function App() {
               <Route path="/ReactResume/career" element={<Career/>} />
               <Route path="/ReactResume/projects" element={<Projects/>} />
               <Route path="/ReactResume/goals" element={<Goals/>} />
+              <Route path="/ReactResume/skills" element={<Skills/>} />
               <Route path="/*" element={<Navigate replace to="/ReactResume/about" />} />
             </Routes>
             </div>

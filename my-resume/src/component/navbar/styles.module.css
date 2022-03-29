@@ -1,9 +1,9 @@
 .resumeNav
 {
     background-color: #00065b;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    border-top-right-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+    border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    border: solid 1px rgb(255, 179, 2);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -22,11 +22,11 @@
 .navElement
 {
     color: rgb(255, 179, 2);
-    font-size: 1.5vw;
+    font-size: 2.5vmin;
     display: inline-block;
     list-style-type:none;
     text-decoration: none;
-    font-family: 'Candara', monospace;
+    font-family: 'Trebuchet MS';
     font-weight: bold;
     margin-top: 1vh;
     margin-right: 1.1vw;
@@ -60,7 +60,7 @@ a
 
 a:hover
 {
-    color: rgb(172, 120, 0);
+    color: #ac7800;
 }
 
 .active

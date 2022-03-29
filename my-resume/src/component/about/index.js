@@ -6,7 +6,7 @@ const About = () => {
     <div className={style.about}>
         <h1 className={style.aboutTitle}>About</h1>
         <p className={style.aboutDescription}>
-            Hi everyone. I'm Görkem Aykaç. I was born 1997 in Izmir and now I'm living in Izmir. I graduated from Manisa Celal Bayar University.
+            Hi everyone. I'm Görkem Aykaç. I was born in 1997 in Turkey and now I'm living in Izmir. I graduated from Manisa Celal Bayar University.
             My main department is 'Electrical Electronics Engineering' also I studied 'Computer Engineering(Double Major Program)'.
             I worked as Software Engineer in different companies since I graduated. I'm currently doing master degree on 'Product Lifecycle Managment' at Ege University.
             I used React.js when making this app. 

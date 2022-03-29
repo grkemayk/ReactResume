@@ -28,7 +28,6 @@
   left: 10px;
   position: absolute;
   top: 210px;
-  border: solid 3px rgb(255, 179, 2);
 }
 .img {
   pointer-events: none;
@@ -48,16 +47,17 @@
 .name
 {
   color: #898e95;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: bold;
-  font-family: 'Times New Roman', serif;
+  font-family: 'Trebuchet MS';
   margin-right: 2vw;
 }
 .title 
 {
   color: #6e6e6e;
-  font-size: 1.5vw;
-  font-family: 'arial';
+  font-size: 1.2vw;
+  font-family: 'Trebuchet MS';
   font-style: italic;
   margin-right: 2vw;
 }
+

@@ -1,0 +1,27 @@
+.skills
+{
+    max-height: 90%;
+    max-width: 90%;
+}
+.skillsTitle
+{
+    font-size: 6vmin;
+    color:white;
+    font-weight: bold;
+    text-shadow: 3px 3px #cf9100 ;
+    text-align: left;
+}
+.skillsDescription
+{
+    font-size: 4vmin;
+    color:white;
+    font-family: 'Times New Roman', serif;
+    text-align: left;
+    
+}
+
+.skillsList
+{
+    list-style-type: decimal;
+    
+}

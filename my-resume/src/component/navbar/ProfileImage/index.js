@@ -1,11 +1,11 @@
 import React from 'react'
 import style from "./styles.module.css"
 import ProfilePhoto from "./ProfileImage.png"
-
 const ProfileImage = () => {
   return (
         <div>
             <ul>
+                
                 <li><div className={style.person}>
                 <div className={style.container}>
                     <div className={style.containerInner}>

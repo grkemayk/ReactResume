@@ -16,6 +16,7 @@ const NavBar=()=>{
             <li className={style.navElement}><NavLink to="/ReactResume/career">Career</NavLink></li>
             <li className={style.navElement}><NavLink to="/ReactResume/projects">Projects</NavLink></li>
             <li className={style.navElement}><NavLink to="/ReactResume/goals">Goals</NavLink></li>
+            <li className={style.navElement}><NavLink to="/ReactResume/skills">Skills</NavLink></li>
             <li className={style.navAccount}><AccountLink/></li>
 
           </ul>  
