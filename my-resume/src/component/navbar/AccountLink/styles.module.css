@@ -1,0 +1,26 @@
+.accountImage
+{
+    max-height: 6vmin;
+    max-width: 6vmin;
+
+}
+.accountList
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+    margin : auto;
+    min-width: 100%;
+}
+.accountDiv
+{
+    min-width: 50%;
+    max-height: 50%;
+    max-width: 50%;
+
+    display: flex;
+    justify-content: space-around;
+}

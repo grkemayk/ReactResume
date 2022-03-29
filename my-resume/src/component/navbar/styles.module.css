@@ -22,16 +22,20 @@
 {
     max-width: 90%;
     max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .navElement
 {
     color: rgb(255, 179, 2);
-    font-size: 2vw;
+    font-size: 1.5vw;
     list-style-type:none;
     text-decoration: none;
     font-family: 'Candara', monospace;
     font-weight: bold;
     margin-top: 1vh;
+    
 }
 .navElementActive
 {
@@ -59,4 +63,12 @@ a:hover
 .active
 {
     background-color: green;
+}
+.navAll
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
 }

@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavLink } from "react-router-dom";
 import style from "./styles.module.css"
 import ProfileImage from './ProfileImage';
-
+import AccountLink from './AccountLink';
 
 const NavBar=()=>{
   return (
@@ -17,6 +17,7 @@ const NavBar=()=>{
             <li className={style.navElement}><NavLink to="/ReactResume/projects">Projects</NavLink></li>
             <li className={style.navElement}><NavLink to="/ReactResume/goals">Goals</NavLink></li>
           </ul>  
+          <AccountLink/>
         </div>
     </nav>
   )
