@@ -1,6 +1,6 @@
 .projectName
 {
-    font-size: 4vmin;
+    font-size: 5vmin;
     font-weight: bold;
     text-shadow: 3px 3px #3b59ff ;
     color:white;
@@ -9,7 +9,7 @@
 }
 .projectCompany
 {
-    font-size: 2vmin;
+    font-size: 3vmin;
     color:rgba(255, 255, 255);
     font-weight: bold;
     text-shadow: 0 0 3px #000000, 0 0 5px #18006d;
@@ -17,20 +17,20 @@
 
 .projectTerm
 {
-    font-size: 1.2vmin;
+    font-size: 2vmin;
     color:white;
     font-family: 'Times New Roman', serif;
     font-weight: bold;
 }
 .projectDescription
 {
-    font-size: 2vmin;
+    font-size: 2.5vmin;
     color:white;
     font-family: 'Times New Roman', serif;
 }
 .projectKeywords
 {
-    font-size: 1.4vmin;
+    font-size: 2vmin;
     color: #474747 ;
     font-family: 'Times New Roman', serif;
     font-weight: bold;

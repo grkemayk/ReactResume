@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-right: 2vw;
 }
 
 
@@ -40,21 +41,23 @@
   transform: translateY(0) scale(1.2);
 }
 .img1 {
-  left: 22px;
+  left: 20px;
   top: 164px;
   width: 340px;
 }
-.name {
+.name
+{
   color: #898e95;
   font-size: 2vw;
   font-weight: bold;
   font-family: 'Times New Roman', serif;
-  text-align: center;
+  margin-right: 2vw;
 }
-.title {
+.title 
+{
   color: #6e6e6e;
-  font-family: arial;
-  font-size: 2vw;
+  font-size: 1.5vw;
+  font-family: 'arial';
   font-style: italic;
-  text-align: center;
+  margin-right: 2vw;
 }

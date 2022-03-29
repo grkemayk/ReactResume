@@ -10,31 +10,34 @@
     align-items: center;
     flex-direction: column;
 }
-.resumeNav > ul{
-    height: 70%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    
-}
+
 .navList
 {
     max-width: 90%;
     max-height: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center
 }
 .navElement
 {
     color: rgb(255, 179, 2);
     font-size: 1.5vw;
+    display: inline-block;
     list-style-type:none;
     text-decoration: none;
     font-family: 'Candara', monospace;
     font-weight: bold;
     margin-top: 1vh;
+    margin-right: 1.1vw;
+}
+.navAccount
+{
+    list-style-type:none;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 4vh;
+    margin-right: 2vw;
     
 }
 .navElementActive

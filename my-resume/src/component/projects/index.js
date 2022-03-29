@@ -24,9 +24,9 @@ const Projects = () => {
             projectName="Payment System"
             projectCompany="Mepsan"
             projectTerm="09.2020 - 06.2021"
-            projectDescription="This is my first professional project experience.
-            We developed payment system for use at gas stations. I was commissioned as part of the created microservices architecture.
-            I was also commissioned as part of the created smart cash register. Here I worked with Python, C#, JavaScript.  "
+            projectDescription="We developed payment system for use at gas stations. I was commissioned as part of the created microservices architecture.
+            I mostly worked on developing a cash register application with C#. This application has dynamic control properties. In this way, every company can
+            integrate this application into their payment systems."
             projectKeywords="Python, C#, JavaScript"
             />
             </li>
@@ -36,7 +36,8 @@ const Projects = () => {
             projectCompany="WiserTech"
             projectTerm="06.2021 - Currently"
             projectDescription="I developing industrial textile machines software. Ozone machine is one of them.
-            This machines have AI and it depend a Cloud system. We can control and tracking these machines with the cloud system we have developed."
+            This machines have AI and it depend a Cloud system. We can control and tracking these machines with the cloud system we have developed.
+            We can control the reason for the stop and analyze the productivity with OEE systems that we have integrated."
             projectLink="http://www.wisertech.ai/"
             projectKeywords="Java, JavaFX, JavaScript, React.js, Python"
             />
