@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/ReactResume/static/css/main.04746860.css",
-    "main.js": "/ReactResume/static/js/main.1950edef.js",
+    "main.css": "/ReactResume/static/css/main.7aecb931.css",
+    "main.js": "/ReactResume/static/js/main.1f91847b.js",
     "static/media/ProfileImage.png": "/ReactResume/static/media/ProfileImage.5b0d47965ada1483bf15.png",
+    "static/media/file.pdf": "/ReactResume/static/media/file.6c9dd82dbb37dfd6c783.pdf",
     "static/media/linkedin.png": "/ReactResume/static/media/linkedin.fe0986e7807b4381a8cb.png",
-    "static/media/github.png": "/ReactResume/static/media/github.553c66159c5672f25df6.png",
+    "static/media/github.png": "/ReactResume/static/media/github.11e5a0886e7f99a2acf3.png",
     "index.html": "/ReactResume/index.html",
-    "main.04746860.css.map": "/ReactResume/static/css/main.04746860.css.map",
-    "main.1950edef.js.map": "/ReactResume/static/js/main.1950edef.js.map"
+    "main.7aecb931.css.map": "/ReactResume/static/css/main.7aecb931.css.map",
+    "main.1f91847b.js.map": "/ReactResume/static/js/main.1f91847b.js.map"
   },
   "entrypoints": [
-    "static/css/main.04746860.css",
-    "static/js/main.1950edef.js"
+    "static/css/main.7aecb931.css",
+    "static/js/main.1f91847b.js"
   ]
 }
