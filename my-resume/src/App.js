@@ -8,12 +8,14 @@ import Career from './component/career';
 import Projects from './component/projects';
 import Goals from './component/goals';
 import Skills from './component/skills';
+import { useAuth0 } from '@auth0/auth0-react';
 
 function App() {
 
+  const {loginWithRedirect, isAuthenticated, logout, isLoading, user} = useAuth0();
   return (
     <div className="App">
-        <div className="row">
+      {isLoading ? (<p className="Loading">Loading..</p> ) : isAuthenticated ? <div className="row">
           <div class="col-3 componentNavbar"><NavBar/></div>
           <div class="col-9 componentBody">
             <div className="containerBody">
@@ -29,6 +31,13 @@ function App() {
             </div>
           </div>
         </div>
+            : <div>
+                <p className="LoginDescription">Please login to view the resume..</p>
+                <button className="LoginButton" onClick={loginWithRedirect}>LOGIN</button>
+            </div> }
+      
+
+      
     </div>
   );
 }

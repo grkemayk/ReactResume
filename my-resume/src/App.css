@@ -3,7 +3,45 @@
   
   width: 99vw;
   height: 99vh;
+
+
 }
+.Loading
+{
+  margin-top: 40vh;
+  color: white;
+  font-size: 5vmin;
+}
+.LoginDescription
+{
+  margin-top: 40vh;
+  color: white;
+  font-size: 3vmin;
+}
+.LoginButton {
+  font-family: Hack, monospace;
+  background: #bbff00;
+  color: #1d1d1d;
+  cursor: pointer;
+  font-size: 2em;
+  padding: 1.5rem;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 10px;
+  width: auto;
+  position: relative;
+  min-width: 250px;
+}
+
+.LoginButton:hover {
+  background: #2b2bff;
+  transition: all 0.5s;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px #0000ff61;
+  color: #ffffff;
+}
+
+
 .componentBody
 {
   display: flex;
@@ -32,6 +70,7 @@
   border-radius: 25px;
   box-shadow: rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.8) 0px 30px 60px -30px, rgba(10, 37, 64, 0.7) 0px -2px 6px 0px inset;  overflow-y:auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
