@@ -5,6 +5,7 @@ import LinkedInImage from "./linkedin.png"
 import Download from "./download.png"
 
 const AccountLink = () => {
+  console.log("asdasd")
   return (
     <div className={style.accountDiv}>
         <lu className={style.accountList}>

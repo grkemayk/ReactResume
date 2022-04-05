@@ -7,27 +7,27 @@ import AccountLink from './AccountLink';
 import CustomerProfile from '../customerProfile';
 import { useAuth0, User } from '@auth0/auth0-react';
 
-const postData = (url, data) => 
-{
-  (async () => {
-    const rawResponse = await fetch(url, {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(data)
-    });
-    const content = await rawResponse.json();
+
+
+// Example POST method implementation:
+
+
   
-    console.log(content);
-  })();
-} 
 const NavBar=()=>{
+
   const {user} = useAuth0();
 
-  useEffect(() =>{
-    postData('https://jsonplaceholder.typicode.com/posts',{CustomerName: user.name, CustomerMail: user.email}) 
+  useEffect(async () =>{
+
+    const requestOptions = {
+
+      method: "GET",
+      
+
+     
+    };
+    await fetch("http://localhost:8080/NewCustomer/"+user.name+"/"+user.email, requestOptions).then(resp => console.log(resp)).catch(err => console.log(err));
+
   },[]);
   
   return (
